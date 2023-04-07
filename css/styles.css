@@ -22,8 +22,13 @@ ol {
     width: 200px;
 }
 
+
+.logo-nav{
+    width: 150px;
+}
+
 .header {
-    padding: 5px;
+
     background-color: 83c5be;
     display: flex;
     align-items: center;
