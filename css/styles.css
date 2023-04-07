@@ -23,16 +23,13 @@ ol {
 }
 
 
-.logo-nav{
-    width: 150px;
+.logo-nav {
+    width: 140px;
 }
 
 .header {
 
     background-color: 83c5be;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     font-weight: 600;
     font-size: 18;
 }
@@ -42,18 +39,16 @@ ol {
     gap: 60px;
 }
 
-.boton-login {
-    background-color: e29578;
-    padding: 0.7em 1em;
-    border-radius: 20px;
+.btn-azul {
+    background-color: white;
 }
 
-.boton-login:hover {
+.vtn-azul:hover {
     background-color: ffddd2;
 }
 
 
-.resaltado{
+.resaltado {
     text-decoration: underline;
 }
 
@@ -70,7 +65,7 @@ ol {
 
 
 /* MAIN ----------------------------------------------------------------------------- */
-.principal{
+.principal {
     display: flex;
     justify-content: space-between;
     align-content: center;
@@ -87,36 +82,36 @@ ol {
 
 }
 
-.titulo{
+.titulo {
     color: 006d77;
     font-weight: 800;
     font-size: 40px;
 }
 
-.pasos{
-    display:flex;
+.pasos {
+    display: flex;
 }
 
-h4{
+h4 {
     font-weight: 200;
 }
 
 
 
 /* RECETAS-MAIN ----------------------------------------------------------------------------- */
-.lista-recetas{
+.lista-recetas {
     display: flex;
     justify-content: space-around;
 }
 
-.categoria{
+.categoria {
     color: 006d77;
     font-weight: 600;
     font-size: 20px;
 }
 
 /* PLANIFICA TU SEMANA-MAIN ----------------------------------------------------------------------------- */
-.principal-planifica{
+.principal-planifica {
     background-image: url(../img/principal-planifica-tu-semana.jpg);
     height: 70vh;
     background-size: contain;
@@ -125,7 +120,7 @@ h4{
     color: white;
 }
 
-.funcionamiento{
+.funcionamiento {
     background-color: 83c5be;
     display: flex;
     justify-content: center;
@@ -142,7 +137,7 @@ h4{
 
 
 /* LOGIN-MAIN ----------------------------------------------------------------------------- */
-.main-login{
+.main-login {
     display: flex;
     flex-direction: column;
     align-items: center;
