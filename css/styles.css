@@ -1,0 +1,145 @@
+/* RESET CSS ----------------------------------------------------------------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+
+/*  HEADER ----------------------------------------------------------------------------- */
+.logo-pagina {
+    width: 200px;
+}
+
+.header {
+    padding: 5px;
+    background-color: 83c5be;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size: 18;
+}
+
+.lista-nav {
+    display: flex;
+    gap: 60px;
+}
+
+.boton-login {
+    background-color: e29578;
+    padding: 0.7em 1em;
+    border-radius: 20px;
+}
+
+.boton-login:hover {
+    background-color: ffddd2;
+}
+
+
+.resaltado{
+    text-decoration: underline;
+}
+
+
+
+/* FOOTER ----------------------------------------------------------------------------- */
+.footer {
+    padding: 5px;
+    background-color: ffddd2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* MAIN ----------------------------------------------------------------------------- */
+.principal{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.portada-principal {
+    background-image: url(../img/img1.jpg);
+    height: 100vh;
+    background-size: contain;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.titulo{
+    color: 006d77;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.pasos{
+    display:flex;
+}
+
+h4{
+    font-weight: 200;
+}
+
+
+
+/* RECETAS-MAIN ----------------------------------------------------------------------------- */
+.lista-recetas{
+    display: flex;
+    justify-content: space-around;
+}
+
+.categoria{
+    color: 006d77;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/* PLANIFICA TU SEMANA-MAIN ----------------------------------------------------------------------------- */
+.principal-planifica{
+    background-image: url(../img/principal-planifica-tu-semana.jpg);
+    height: 70vh;
+    background-size: contain;
+    display: flex;
+    align-items: end;
+    color: white;
+}
+
+.funcionamiento{
+    background-color: 83c5be;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+/*  HEADER LOGIN ---------------------------------------------------------------------- */
+.header-login {
+    padding: 5px;
+    background-color: 83c5be;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* LOGIN-MAIN ----------------------------------------------------------------------------- */
+.main-login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
