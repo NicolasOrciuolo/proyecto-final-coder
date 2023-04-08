@@ -87,9 +87,16 @@ ol {
 
 }
 
-.subtitulo{
+.subtitulo {
     color: white
 }
+
+.bg-celeste {
+    background-color: #83c5be;
+}
+
+
+
 
 .pasos {
     display: flex;
@@ -124,7 +131,7 @@ h4 {
 }
 
 .funcionamiento {
-    background-color: 83c5be;
+    background-color: #83c5be;
     display: flex;
     justify-content: center;
     padding: 10px;
