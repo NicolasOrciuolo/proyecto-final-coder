@@ -45,7 +45,7 @@ ol {
 }
 
 .vtn-azul:hover {
-    background-color: ffddd2;
+    background-color: #ffddd2;
 }
 
 
@@ -56,12 +56,34 @@ ol {
 
 
 /* FOOTER ----------------------------------------------------------------------------- */
-.footer {
-    padding: 5px;
-    background-color: ffddd2;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.bg-footer {
+    background-color: #ffddd2;
+}
+
+i {
+    color: black;
+}
+
+.social-insta:hover {
+    color: #e4405f
+}
+
+.social-face:hover {
+    color: #3b5999;
+}
+
+.social-twtr:hover {
+    color: #55acee
+}
+
+.links-footer{
+    text-decoration: none;
+    color: black;
+}
+
+.links-footer:hover{
+    color: #006d77;
+    font-weight: bold;
 }
 
 
@@ -124,7 +146,7 @@ ol {
 /*  HEADER LOGIN ---------------------------------------------------------------------- */
 .header-login {
     padding: 5px;
-    background-color: 83c5be;
+    background-color: #83c5be;
     display: flex;
     justify-content: center;
 }
