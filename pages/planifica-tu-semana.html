@@ -12,21 +12,43 @@
 </head>
 
 <body>
-    <header class="header">
-        <a href="../index.html">
-            <img src="../logo/Logo.png" alt="Logo: ¿qué comemos?" width="150px">
-        </a>
+    <header class="navbar p-0 navbar-expand-lg border-bottom header sticky-lg-top">
+        <!-- Navbar Bootstrap -->
+        <nav class="container">
+            <!-- Logo nav -->
+            <a class="navbar-brand" href="../index.html">
+                <img class="logo-nav" src="../logo/Logo.png" alt="Logo ¿qué comemos?">
+            </a>
 
-        <nav>
-            <ul class="lista-nav">
-                <li><a href="../pages/recetas.html">Recetas</a></li>
-                <li class="resaltado"><a href="">Planifica tu semana</a></li>
-                <li><a href="../pages/consejos-saludables.html">Consejos saludables</a></li>
-            </ul>
+            <!-- Menú hamburguesa -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Links nav -->
+            <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarNavAltMarkup">
+                <ul class="navbar-nav">
+                    <li>
+                        <a class="nav-link" aria-current="page" href="../pages/recetas.html">Recetas</a>
+                    </li>
+                    <li>
+                        <a class="nav-link active" href="../pages/planifica-tu-semana.html">Planifica tu semana</a>
+                    </li>
+                    <li>
+                        <a class="nav-link me-5" href="../pages/consejos-saludables.html">Consejos saludables</a>
+                    </li>
+                </ul>
+
+                <!-- Boton login -->
+                <div>
+                    <a href="../pages/login.html" class="btn btn-outline-primary"
+                        style="--bs-btn-font-size: 18px">Iniciar Sesion</a>
+                </div>
+            </div>
         </nav>
-
-        <a href="../pages/login.html" class="boton-login">Iniciar Sesion</a>
     </header>
+
 
     <main>
         <section>
@@ -88,37 +110,47 @@
             <a href="../pages/login.html" class="boton-login">Iniciar Sesion</a>
             <br><br>
         </section>
-
     </main>
 
-    <footer class="footer">
-        <section class="social-media">
-            <a href="../index.html">
-                <img src="../logo/Logo.png" alt="Logo: ¿qué comemos?" width="150px">
-            </a>
 
-            <h3>Seguinos en nuestras redes</h3>
-            <div class="social-media">
-                <img src="../icons/facebook.png" alt="Facebook" width="30px">
-                <img src="../icons/instagram.png" alt="Instagram" width="30px">
-                <img src="../icons/twitter.png" alt="Twitter" width="30px">
+    <footer class="container-fluid mt-3 bg-footer">
+        <div class="container">
+            <!-- Fila superior del footer -->
+            <div class="row justify-content-lg-between align-items-lg-center border-bottom">
+                <!-- Información adicional -->
+                <div class="col-12 col-lg-3 text-lg-start text-center">
+                    <a href="../index.html">
+                        <img src="../logo/Logo.png" alt="Logo ¿Qué comemos?" class="w-50">
+                    </a>
+                </div>
+
+                <!-- Redes sociales -->
+                <div class="col-12 col-lg-4 p-3">
+                    <h4 class="text-center">Seguinos en nuestras redes</h4>
+                    <div class="fs-3 d-flex justify-content-center gap-4">
+                        <a href="https://www.instagram.com/">
+                            <i class="bi bi-instagram social-insta"></i>
+                        </a>
+                        <a href="https://www.facebook.com">
+                            <i class="bi bi-facebook redes social-face"></i>
+                        </a>
+                        <a href="https://www.twitter.com">
+                            <i class="bi bi-twitter redes social-twtr"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Lista footer -->
+                <div class="col-12 col-lg-4">
+                    <ul class="text-lg-end text-center p-0">
+                        <li><a href="" class="links-footer">¿Quienes somos?</a></li>
+                        <li><a href="" class="links-footer">Contacta con nosotros</a></li>
+                        <li><a href="" class="links-footer">Política de privacidad</a></li>
+                        <li><a href="" class="links-footer">Política de cookies</a></li>
+                    </ul>
+                </div>
             </div>
-        </section>
-
-        <section>
-            <ul>
-                <li class="quienes-somos"><a href="">¿Quienes somos?</a></li>
-                <li class="contacta-con-nos"><a href="">Contacta con nosotros</a></li>
-                <li class="politica-privacidad"><a href="">Política de privacidad</a></li>
-                <li class="politica-cookies"><a href="">Política de cookies</a></li>
-            </ul>
-
-            <div>
-                <img src="../icons/Banner Google.png" alt="Descargar en Google Play" width="120px">
-                <img src="../icons/Banner apple.png" alt="Descargar en el App Store" width="120px">
-            </div>
-        </section>
-
+        </div>
     </footer>
 
 
