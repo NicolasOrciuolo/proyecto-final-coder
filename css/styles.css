@@ -18,17 +18,11 @@ ol {
 
 
 /*  HEADER ----------------------------------------------------------------------------- */
-.logo-pagina {
-    width: 200px;
-}
-
-
 .logo-nav {
     width: 140px;
 }
 
 .header {
-
     /* background-color: #83c5be; */
     background-color: white;
     font-weight: 600;
@@ -39,15 +33,6 @@ ol {
     display: flex;
     gap: 60px;
 }
-
-.btn-azul {
-    background-color: white;
-}
-
-.vtn-azul:hover {
-    background-color: #ffddd2;
-}
-
 
 .resaltado {
     text-decoration: underline;
@@ -88,21 +73,10 @@ i {
 
 
 /* MAIN ----------------------------------------------------------------------------- */
-.principal {
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
-}
-
-.portada-principal {
-    height: 85vh;
-}
-
 .titulo {
     color: white;
     font-weight: 800;
     font-size: 40px;
-
 }
 
 .subtitulo {
