@@ -127,9 +127,21 @@ i {
 
 
 /* LOGIN-MAIN ----------------------------------------------------------------------------- */
-.main-login {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
+.img-login{
+    background-image: url(../img/img-login-4.jpg);
+    background-size: cover;
+    height: 100vh;
 }
+
+/* .logo-login{
+    height: 25px;
+} */
+
+.font-login{
+    font-family: 'Lilita One', cursive;
+}
+
+.bg-azul{
+    color: #006d77;
+}
+
