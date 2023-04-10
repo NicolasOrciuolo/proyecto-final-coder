@@ -133,10 +133,6 @@ i {
     height: 100vh;
 }
 
-/* .logo-login{
-    height: 25px;
-} */
-
 .font-login{
     font-family: 'Lilita One', cursive;
 }
@@ -145,3 +141,6 @@ i {
     color: #006d77;
 }
 
+.subrayado:hover{
+    text-decoration: underline;
+}
