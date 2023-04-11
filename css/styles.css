@@ -89,13 +89,8 @@ i {
 
 
 /* RECETAS-MAIN ----------------------------------------------------------------------------- */
-.lista-recetas {
-    display: flex;
-    justify-content: space-around;
-}
-
 .categoria {
-    color: 006d77;
+    color: #006d77;
     font-weight: 600;
     font-size: 20px;
 }
@@ -115,14 +110,6 @@ i {
     display: flex;
     justify-content: center;
     padding: 10px;
-}
-
-/*  HEADER LOGIN ---------------------------------------------------------------------- */
-.header-login {
-    padding: 5px;
-    background-color: #83c5be;
-    display: flex;
-    justify-content: center;
 }
 
 
