@@ -118,6 +118,20 @@ i {
 }
 
 
+
+/* CONSEJOS SALUDABLES-MAIN ----------------------------------------------------------------------------- */
+.fuente-consejos{
+    font-family: 'Lilita One', cursive;
+}
+
+
+
+
+
+
+
+
+
 /* LOGIN-MAIN ----------------------------------------------------------------------------- */
 .img-login{
     background-image: url(../img/img-login-4.jpg);
