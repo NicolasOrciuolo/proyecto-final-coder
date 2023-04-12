@@ -96,11 +96,6 @@ i {
 }
 
 /* PLANIFICA TU SEMANA-MAIN ----------------------------------------------------------------------------- */
-.principal-planifica {
-    background-image: url(../img/principal-planifica-tu-semana.jpg);
-    background-size: contain;
-}
-
 .bg-negro{
     color: black;
 }
@@ -114,6 +109,12 @@ i {
     font-family: 'Titan One', cursive;
     font-weight: 800;
     font-size: 150px;
+}
+
+.texto-pie{
+    font-family: 'Titan One', cursive;
+    font-weight: 400;
+    font-size: 50px;
 }
 
 

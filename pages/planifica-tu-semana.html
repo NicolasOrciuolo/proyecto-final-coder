@@ -8,8 +8,10 @@
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Nunito:wght@300;700;800;1000&family=Titan+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Nunito:wght@300;700;800;1000&family=Titan+One&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="../css/styles.css">
     <title>¿Qué comemos?</title>
 </head>
@@ -54,16 +56,19 @@
 
 
     <main class="container">
+
         <section>
-            <section class="card text-bg-dark border-light">
+
+            <!-- Foto encabezado -->
+            <div class="card text-bg-dark border-light">
                 <img src="../img/img1.jpg" class="card-img portada-principal" alt="Portada principal">
                 <div class="card-img-overlay text-center">
                     <h1 class="card-title fw-bold bg-negro fs-2">CON NUESTRO PLANIFICADOR SEMANAL, ORGANIZAR TUS COMIDAS
                         Y
-                        TUS COMPRAS...<strong class="fw-bold bg-azul titulo">¡ES MUCHO MÁS FACIL!</strong></h1>
+                        TUS COMPRAS...<strong class="fw-bold bg-azul titulo"> ¡ES MUCHO MÁS FACIL!</strong></h1>
 
                 </div>
-            </section>
+            </div>
 
             <div class="funcionamiento d-flex justify-content-center align-items-center">
                 <i class="bi bi-chevron-down fs-4 p-2"></i>
@@ -71,50 +76,54 @@
                 <i class="bi bi-chevron-down fs-4 p-2"></i>
             </div>
         </section>
-        <br>
+
+        <!-- Items -->
         <section>
-            <div class="d-flex align-items-center justify-content-center">
-                <h4 class="numero-grande bg-azul p-5">1</h4>
-                <p class="fs-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum officia perspiciatis nulla atque
+            <div class="d-flex flex-column flex-lg-row align-items-center">
+                <h4 class="text-center text-lg-start numero-grande bg-azul p-lg-5">1</h4>
+                <p class="fs-3 text-center text-lg-start">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Rerum officia perspiciatis nulla atque
                     vitae
                     consequatur, corporis doloremque omnis? Saepe, quam. Error, necessitatibus sapiente. Veritatis,
                     animi.
                     Repellendus, cumque. Magnam, voluptatum fugit.</p>
             </div>
-            <div class="d-flex align-items-center justify-content-center">
-                <h4 class="numero-grande bg-azul p-5">2</h4>
-                <p class="fs-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum officia perspiciatis nulla atque
+            <div class="d-flex flex-column flex-lg-row align-items-center">
+                <h4 class="text-center text-lg-start numero-grande bg-azul p-lg-5">2</h4>
+                <p class="fs-3 text-center text-lg-start">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Rerum officia perspiciatis nulla atque
                     vitae
                     consequatur, corporis doloremque omnis? Saepe, quam. Error, necessitatibus sapiente. Veritatis,
                     animi.
                     Repellendus, cumque. Magnam, voluptatum fugit.</p>
             </div>
-            <div class="d-flex align-items-center justify-content-center">
-                <h4 class="numero-grande bg-azul p-5">3</h4>
-                <p class="fs-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum officia perspiciatis nulla atque
+            <div class="d-flex flex-column flex-lg-row align-items-center">
+                <h4 class="text-center text-lg-start numero-grande bg-azul p-lg-5">3</h4>
+                <p class="fs-3 text-center text-lg-start">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Rerum officia perspiciatis nulla atque
                     vitae
                     consequatur, corporis doloremque omnis? Saepe, quam. Error, necessitatibus sapiente. Veritatis,
                     animi.
                     Repellendus, cumque. Magnam, voluptatum fugit.</p>
             </div>
-            <div class="d-flex align-items-center justify-content-center">
-                <h4 class="numero-grande bg-azul p-5">4</h4>
-                <p class="fs-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum officia perspiciatis nulla atque
+            <div class="d-flex flex-column flex-lg-row align-items-center">
+                <h4 class="text-center text-lg-start numero-grande bg-azul p-lg-5">4</h4>
+                <p class="fs-3 text-center text-lg-start">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Rerum officia perspiciatis nulla atque
                     vitae
                     consequatur, corporis doloremque omnis? Saepe, quam. Error, necessitatibus sapiente. Veritatis,
                     animi.
                     Repellendus, cumque. Magnam, voluptatum fugit.</p>
+            </div>
         </section>
 
-        <section>
-            <figure>
-                <img src="../img/pie-pagina.planifica.jpg" alt="" width="600px">
-            </figure>
-            <h3>INICIA SESIÓN, Y COMENZÁ A DISFRUTARLO</h3>
-            <br>
-            <a href="../pages/login.html" class="boton-login">Iniciar Sesion</a>
-            <br><br>
-        </section>
+        <!-- Pie de pagina -->
+        <div class="">
+            <h3 class="text-center texto-pie bg-azul p-lg-3">INICIÁ SESIÓN Y COMENZÁ A DISFRUTARLO</h3>
+            <div class="d-grid gap-2">
+                <button class="btn btn-outline-primary fw-bold fs-4" type="button">INICIAR SESION</button>
+            </div>
+        </div>
     </main>
 
 
