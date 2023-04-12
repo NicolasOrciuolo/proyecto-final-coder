@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Nunito', sans-serif;
+    box-sizing: border-box;
 
 }
 
@@ -117,19 +118,15 @@ i {
     font-size: 50px;
 }
 
+.boton-pie:hover{
+    color: white;
+}
 
 
 /* CONSEJOS SALUDABLES-MAIN ----------------------------------------------------------------------------- */
 .fuente-consejos{
     font-family: 'Lilita One', cursive;
 }
-
-
-
-
-
-
-
 
 
 /* LOGIN-MAIN ----------------------------------------------------------------------------- */
