@@ -81,7 +81,9 @@ i {
 }
 
 .subtitulo {
-    color: white
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .bg-celeste {
