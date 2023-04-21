@@ -62,12 +62,12 @@ i {
     color: #55acee
 }
 
-.links-footer{
+.links-footer {
     text-decoration: none;
     color: black;
 }
 
-.links-footer:hover{
+.links-footer:hover {
     color: #006d77;
     font-weight: bold;
 }
@@ -99,7 +99,7 @@ i {
 }
 
 /* PLANIFICA TU SEMANA-MAIN ----------------------------------------------------------------------------- */
-.bg-negro{
+.bg-negro {
     color: black;
 }
 
@@ -108,44 +108,50 @@ i {
     padding: 5px;
 }
 
-.numero-grande{
+.numero-grande {
     font-family: 'Titan One', cursive;
     font-weight: 800;
     font-size: 150px;
 }
 
-.texto-pie{
+.texto-planifica {
+    text-align: justify;
+}
+
+
+
+.texto-pie {
     font-family: 'Titan One', cursive;
     font-weight: 400;
     font-size: 50px;
 }
 
-.boton-pie:hover{
+.boton-pie:hover {
     color: white;
 }
 
 
 /* CONSEJOS SALUDABLES-MAIN ----------------------------------------------------------------------------- */
-.fuente-consejos{
+.fuente-consejos {
     font-family: 'Lilita One', cursive;
 }
 
 
 /* LOGIN-MAIN ----------------------------------------------------------------------------- */
-.img-login{
+.img-login {
     background-image: url(../img/img-login-4.jpg);
     background-size: cover;
     height: 100vh;
 }
 
-.font-login{
+.font-login {
     font-family: 'Lilita One', cursive;
 }
 
-.bg-azul{
+.bg-azul {
     color: #006d77;
 }
 
-.subrayado:hover{
+.subrayado:hover {
     text-decoration: underline;
 }
