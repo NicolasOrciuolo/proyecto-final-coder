@@ -21,46 +21,62 @@
 </head>
 
 <body>
-    <main class="d-flex">
+    <main>
+        <div class="card">
 
-        <!-- Imagen izquierda -->
-        <div class="img-login col-4 d-flex align-items-start">
-            <div class="text-center">
-                <h1 class="p-4 font-login">Tu mejora alimentaria <span class="bg-azul font-login">COMIENZA
-                        AQUÍ</span></h1>
+            <div class="row g-0">
+
+                <!-- Imagen -->
+                <div class="col-md-4 d-none d-lg-block">
+                    <img src="../img/img-login-4.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+
+
+                <!-- Formulario -->
+                <div class="col-md-8 text-center">
+                    <div>
+                        <a href="../index.html">
+                            <img src="../logo/Logo.png" alt="Logo ¿Qué comemos?" class="h-25">
+                        </a>
+
+                        <h2 class="mt-3 fw-bold">INICIA SESIÓN</h2>
+                        <h3 class="mt-5 fs-5">¿Eres un nuevo usuario? <a href="" class="bg-azul fw-bold subrayado">Crear
+                                una cuenta</a></h3>
+                    </div>
+
+                    <div class="container col-6 mt-4">
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control shadow" id="floatingInput"
+                                placeholder="name@example.com">
+                            <label for="floatingInput">Email</label>
+                        </div>
+
+                        <div class="form-floating">
+                            <input type="password" class="form-control shadow" id="floatingPassword"
+                                placeholder="Password">
+                            <label for="floatingPassword">Contraseña</label>
+                        </div>
+
+                        <h4 class="fs-6 mt-3 text-start subrayado"><a href="">Olvidé mi contraseña</a></h4>
+
+                        <div class="d-grid">
+                            <a href="" class="btn btn-outline-primary mt-4"
+                                style="--bs-btn-font-size: 18px">Ingresar</a>
+                        </div>
+                    </div>
+
+                </div>
             </div>
         </div>
 
-        <!-- Parte derecha -->
-        <div class="flex-grow-1 text-center">
-            <div>
-                <a href="../index.html">
-                    <img src="../logo/Logo.png" alt="Logo ¿Qué comemos?" class="h-25">
-                </a>
 
-                <h2 class="mt-3 fw-bold">INICIA SESIÓN</h2>
-                <h3 class="mt-5 fs-5">¿Eres un nuevo usuario? <a href="" class="bg-azul fw-bold subrayado">Crear una
-                        cuenta</a></h3>
-            </div>
 
-            <div class="container col-6 mt-4">
-                <div class="form-floating mb-3">
-                    <input type="email" class="form-control shadow" id="floatingInput" placeholder="name@example.com">
-                    <label for="floatingInput">Email</label>
-                </div>
 
-                <div class="form-floating">
-                    <input type="password" class="form-control shadow" id="floatingPassword" placeholder="Password">
-                    <label for="floatingPassword">Contraseña</label>
-                </div>
 
-                <h4 class="fs-6 mt-3 text-start subrayado"><a href="">Olvidé mi contraseña</a></h4>
 
-                <div class="d-grid">
-                    <a href="" class="btn btn-outline-primary mt-4" style="--bs-btn-font-size: 18px">Ingresar</a>
-                </div>
-            </div>
-        </div>
+
+
+
     </main>
 
 
