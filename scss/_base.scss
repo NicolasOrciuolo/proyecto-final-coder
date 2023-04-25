@@ -1,0 +1,24 @@
+/* RESET CSS ----------------------------------------------------------------------------- */
+* {
+   margin: 0;
+   padding: 0;
+   font-family: 'Nunito', sans-serif;
+   box-sizing: border-box;
+
+}
+
+a {
+   text-decoration: none;
+   color: black;
+}
+
+ul,
+ol {
+   list-style-type: none;
+}
+
+$azul-claro: #83c5be;
+$azul-oscuro: #006d77;
+$instagram: #e4405f;
+$facebook: #3b5999;
+$twitter: #55acee;

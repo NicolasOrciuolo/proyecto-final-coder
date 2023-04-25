@@ -1,157 +1,149 @@
 /* RESET CSS ----------------------------------------------------------------------------- */
 * {
-    margin: 0;
-    padding: 0;
-    font-family: 'Nunito', sans-serif;
-    box-sizing: border-box;
-
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", sans-serif;
+  box-sizing: border-box;
 }
 
 a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 ul,
 ol {
-    list-style-type: none;
+  list-style-type: none;
 }
-
 
 /*  HEADER ----------------------------------------------------------------------------- */
 .logo-nav {
-    width: 140px;
+  width: 140px;
 }
 
 .header {
-    /* background-color: #83c5be; */
-    background-color: white;
-    font-weight: 600;
-    font-size: 18;
+  /* background-color: #83c5be; */
+  background-color: white;
+  font-weight: 600;
+  font-size: 18;
 }
 
 .lista-nav {
-    display: flex;
-    gap: 60px;
+  display: flex;
+  gap: 60px;
 }
 
 .resaltado {
-    text-decoration: underline;
+  text-decoration: underline;
 }
-
-
 
 /* FOOTER ----------------------------------------------------------------------------- */
 .bg-footer {
-    background-color: #ffddd2;
+  background-color: #ffddd2;
 }
 
 i {
-    color: black;
+  color: black;
 }
 
 .social-insta:hover {
-    color: #e4405f
+  color: #e4405f;
 }
 
 .social-face:hover {
-    color: #3b5999;
+  color: #3b5999;
 }
 
 .social-twtr:hover {
-    color: #55acee
+  color: #55acee;
 }
 
 .links-footer {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 .links-footer:hover {
-    color: #006d77;
-    font-weight: bold;
+  color: #006d77;
+  font-weight: bold;
 }
-
 
 /* MAIN ----------------------------------------------------------------------------- */
 .titulo {
-    color: white;
-    font-weight: 800;
-    font-size: 40px;
+  color: white;
+  font-weight: 800;
+  font-size: 40px;
 }
 
 .subtitulo {
-    color: white;
-    font-size: 20px;
-    font-weight: bold;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .bg-celeste {
-    background-color: #83c5be;
+  background-color: #83c5be;
 }
-
 
 /* RECETAS-MAIN ----------------------------------------------------------------------------- */
 .categoria {
-    color: #006d77;
-    font-weight: 600;
-    font-size: 20px;
+  color: #006d77;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.boton-pie:hover {
+  color: white;
 }
 
 /* PLANIFICA TU SEMANA-MAIN ----------------------------------------------------------------------------- */
 .bg-negro {
-    color: black;
+  color: black;
 }
 
 .funcionamiento {
-    background-color: #83c5be;
-    padding: 5px;
+  background-color: #83c5be;
+  padding: 5px;
 }
 
 .numero-grande {
-    font-family: 'Titan One', cursive;
-    font-weight: 800;
-    font-size: 150px;
+  font-family: "Titan One", cursive;
+  font-weight: 800;
+  font-size: 150px;
 }
 
 .texto-planifica {
-    text-align: justify;
+  text-align: justify;
 }
-
-
 
 .texto-pie {
-    font-family: 'Titan One', cursive;
-    font-weight: 400;
-    font-size: 50px;
+  font-family: "Titan One", cursive;
+  font-weight: 400;
+  font-size: 50px;
 }
-
-.boton-pie:hover {
-    color: white;
-}
-
 
 /* CONSEJOS SALUDABLES-MAIN ----------------------------------------------------------------------------- */
 .fuente-consejos {
-    font-family: 'Lilita One', cursive;
+  font-family: "Lilita One", cursive;
 }
-
 
 /* LOGIN-MAIN ----------------------------------------------------------------------------- */
 .img-login {
-    background-image: url(../img/img-login-4.jpg);
-    background-size: cover;
-    height: 100vh;
+  background-image: url(../img/img-login-4.jpg);
+  background-size: cover;
+  height: 100vh;
 }
 
 .font-login {
-    font-family: 'Lilita One', cursive;
+  font-family: "Lilita One", cursive;
 }
 
 .bg-azul {
-    color: #006d77;
+  color: #006d77;
 }
 
 .subrayado:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
+
+/*# sourceMappingURL=styles.css.map */

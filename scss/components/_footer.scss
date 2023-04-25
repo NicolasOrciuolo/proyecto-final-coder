@@ -1,0 +1,31 @@
+
+/* FOOTER ----------------------------------------------------------------------------- */
+.bg-footer {
+   background-color: #ffddd2;
+}
+
+i {
+   color: black;
+}
+
+.social-insta:hover {
+   color: $instagram;
+}
+
+.social-face:hover {
+   color: $facebook;
+}
+
+.social-twtr:hover {
+   color: $twitter;
+}
+
+.links-footer {
+   text-decoration: none;
+   color: black;
+}
+
+.links-footer:hover {
+   color: $azul-oscuro;
+   font-weight: bold;
+}
