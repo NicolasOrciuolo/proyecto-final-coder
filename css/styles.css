@@ -22,7 +22,6 @@ ol {
 }
 
 .header {
-  /* background-color: #83c5be; */
   background-color: white;
   font-weight: 600;
   font-size: 18;
@@ -62,7 +61,6 @@ i {
   text-decoration: none;
   color: black;
 }
-
 .links-footer:hover {
   color: #006d77;
   font-weight: bold;

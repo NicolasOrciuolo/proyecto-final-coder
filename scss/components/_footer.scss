@@ -1,7 +1,7 @@
 
 /* FOOTER ----------------------------------------------------------------------------- */
 .bg-footer {
-   background-color: #ffddd2;
+   background-color: $crema;
 }
 
 i {
@@ -23,9 +23,9 @@ i {
 .links-footer {
    text-decoration: none;
    color: black;
-}
 
-.links-footer:hover {
-   color: $azul-oscuro;
-   font-weight: bold;
+   &:hover{
+      color: $azul-oscuro;
+      font-weight: bold;
+   }
 }
