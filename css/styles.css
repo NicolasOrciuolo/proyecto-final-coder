@@ -98,6 +98,11 @@ i {
   color: white;
 }
 
+.dropdown-item:hover {
+  font-weight: bold;
+  color: #006d77;
+}
+
 /* PLANIFICA TU SEMANA-MAIN ----------------------------------------------------------------------------- */
 .bg-negro {
   color: black;
