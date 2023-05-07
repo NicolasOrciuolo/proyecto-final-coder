@@ -36,10 +36,6 @@ ol {
   text-decoration: underline;
 }
 
-.boton-login {
-  --bs-btn-font-size: 18px ;
-}
-
 /* FOOTER ----------------------------------------------------------------------------- */
 .bg-footer {
   background-color: #ffddd2;
@@ -148,4 +144,4 @@ i {
   text-decoration: underline;
 }
 
-/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=styles.css~.map */
