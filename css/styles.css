@@ -134,6 +134,10 @@ i {
   font-family: "Lilita One", cursive;
 }
 
+.parrafo-justif {
+  text-align: justify;
+}
+
 /* LOGIN-MAIN ----------------------------------------------------------------------------- */
 .img-login {
   background-image: url(../img/img-login-4.jpg);
