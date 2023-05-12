@@ -23,3 +23,10 @@
    font-weight: 400;
    font-size: 40px;
 }
+
+.boton-pie {
+   &:hover {
+      background-color: $azul-oscuro !important;
+      border-color: $azul-oscuro !important;
+   }
+}

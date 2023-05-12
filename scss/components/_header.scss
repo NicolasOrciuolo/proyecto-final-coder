@@ -18,6 +18,23 @@
    text-decoration: underline;
 }
 
-.boton-login{
+.boton-login {
    --bs-btn-font-size: 18px
+}
+
+.boton-azul {
+   &:hover {
+      background-color: $azul-oscuro !important;
+      border-color: $azul-oscuro !important;
+   }
+}
+
+.nav-link{
+   &:hover{
+      color: $azul-oscuro !important;
+   }
+}
+
+.active{
+   color: $azul-oscuro !important;
 }

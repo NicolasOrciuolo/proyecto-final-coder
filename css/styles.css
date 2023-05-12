@@ -40,6 +40,19 @@ ol {
   --bs-btn-font-size: 18px ;
 }
 
+.boton-azul:hover {
+  background-color: #006d77 !important;
+  border-color: #006d77 !important;
+}
+
+.nav-link:hover {
+  color: #006d77 !important;
+}
+
+.active {
+  color: #006d77 !important;
+}
+
 /* FOOTER ----------------------------------------------------------------------------- */
 .bg-footer {
   background-color: #ffddd2;
@@ -94,10 +107,6 @@ i {
   font-size: 20px;
 }
 
-.boton-pie:hover {
-  color: white;
-}
-
 .dropdown-item:hover {
   font-weight: bold;
   color: #006d77;
@@ -127,6 +136,11 @@ i {
   font-family: "Titan One", cursive;
   font-weight: 400;
   font-size: 40px;
+}
+
+.boton-pie:hover {
+  background-color: #006d77 !important;
+  border-color: #006d77 !important;
 }
 
 /* CONSEJOS SALUDABLES-MAIN ----------------------------------------------------------------------------- */
