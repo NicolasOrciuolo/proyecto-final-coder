@@ -171,4 +171,9 @@ i {
   text-decoration: underline;
 }
 
+.boton-login:hover {
+  background-color: #006d77 !important;
+  border-color: #006d77 !important;
+}
+
 /*# sourceMappingURL=styles.css.map */

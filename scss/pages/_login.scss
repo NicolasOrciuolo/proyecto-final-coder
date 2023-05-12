@@ -16,3 +16,10 @@
 .subrayado:hover {
    text-decoration: underline;
 }
+
+.boton-login{
+   &:hover{
+      background-color: $azul-oscuro !important;
+      border-color: $azul-oscuro !important;
+   }
+}
